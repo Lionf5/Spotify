@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link  rel="icon" href="./assets/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide ">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global Love songs</p>
+                    <p class="card-info"</p>Vishal Mishra, G. V. Prakash, Devi Sri Prasad, Ankit Tiwari...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Indian Item songs</p>
+                    <p class="card-info"</p>Devi Sri Prasad,Mickey J.Mweyer, Malathi, Ramana Go...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Pop Songs</p>
+                    <p class="card-info"</p>Sean Paul, Imagine Dragons, Ed Sheeran and more</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Happy Vibes </p>
+                    <p class="card-info"</p>Shreya ghoshal, Anirudh Ravichander, Sid Sriram, San...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Telugu</p>
+                    <p class="card-info"</p>Devi Sri Prasad,Mickey J.Mweyer, Malathi, Ramana Go...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Hindi</p>
+                    <p class="card-info"</p>Shreya ghoshal, Anirudh Ravichander, Sid Sriram, San...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Tamil</p>
+                    <p class="card-info"</p>Vishal Mishra, G. V. Prakash, Devi Sri Prasad, Ankit Tiwari...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Kannada</p>
+                    <p class="card-info"</p>Devi Sri Prasad,Mickey J.Mweyer, Malathi, Ramana Go...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - English</p>
+                    <p class="card-info"</p>Sean Paul, Imagine Dragons, Ed Sheeran and more</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info"</p>Devi Sri Prasad,Mickey J.Mweyer, Malathi, Ramana Go...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Indian</p>
+                    <p class="card-info"</p>Vishal Mishra, G. V. Prakash, Devi Sri Prasad, Ankit Tiwari...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Happy Vibes </p>
+                    <p class="card-info"</p>Shreya ghoshal, Anirudh Ravichander, Sid Sriram, San...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-controls">
+                    <img src="./assets/card4img.jpeg" class="album-control-icon" style="height:60px;width:80px">
+                    <p class="album_info"><b> G.O.A.T</b><br>Yuvan Shanker Raja</p>
+                    <img src="./assets/album_icon1.png" class="album-control-icon">
+                    <img src="./assets/album_icon2.png" class="album-control-icon" style="height:2.5rem;">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity:1;height:2rem">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-playback">
+                    <img src="./assets/controls_icon1.png" class="controls-playback-icon"style="height:1.8rem">
+                    <img src="./assets/controld_icon2.png" class="controls-playback-icon" style="height:1.9rem">
+                    <img src="./assets/controls_icon3.png" class="controls-playback-icon" style="height:1.4rem">
+                    <img src="./assets/controls_icon4.png" class="controls-playback-icon" style="height:1.2rem">
+                    <img src="./assets/controls_icon5.png" class="controls-playback-icon" style="height:1.9rem;width:1.3rem">
+                    <input type="range" min="0" max="100" step="1"class="volume">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
